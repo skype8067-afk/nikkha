@@ -175,11 +175,7 @@ const Invitation: React.FC = () => {
           <source src="https://cdn.jsdelivr.net/gh/skype8067-afk/muixcsaqwwd@main/music.mp3" type="audio/mpeg" />
           <source src="https://cdn.jsdelivr.net/gh/skype8067-afk/muixcsaqwwd@master/music.mp3" type="audio/mpeg" />
           
-          {/* Priority 4: Netlify direct paths */}
-          <source src="https://muuuuu.netlify.app/audio/music.mp3" type="audio/mpeg" />
-          <source src="https://muuuuu.netlify.app/music.mp3" type="audio/mpeg" />
-          
-          {/* Priority 5: Google Drive Backup */}
+          {/* Priority 4: Google Drive Backup */}
           <source src="https://drive.google.com/uc?export=download&id=1jysi8M6PWEe9PGZpH1tFhbHYwCqgFrqY&confirm=t" />
 
           {/* Fallback: Classical */}
